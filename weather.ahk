@@ -14,7 +14,8 @@ localPath = C:/path/toast/weather
 
 
 ; ========================= 下载json并解析 =========================
-jsonFilePath = %A_Temp%\weather.future.json
+FormatTime, dateStr, , yyyy-MM-dd
+jsonFilePath = %A_Temp%\weather.%dateStr%.json
 IfNotExist, %jsonFilePath%
     URLDownloadToFile http://api.k780.com/?app=weather.future&weaid=%weaid%&&appkey=%appkey%&sign=%sign%&format=json, %jsonFilePath%
 FileEncoding, UTF-8
