@@ -1,6 +1,11 @@
 ﻿;说明
 ;  获取天气信息，并以系统toast形式展示
-;  接口地址：https://www.nowapi.com/api/weather.future
+;备注
+;  1. 接口地址：https://www.nowapi.com/api/weather.future
+;external
+;  date       2019-08-10 13:59:48
+;  face       (>_<)
+;  weather    Shanghai Moderate rain 28℃
 ; ========================= init =========================
 #SingleInstance,Force
 #Include <JSON>
