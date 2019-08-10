@@ -1,4 +1,4 @@
-# toast-weather
+# ahk-toast-weather
 > 获取天气信息，并以系统toast形式展示；建议将脚本配置到系统定时任务中，让其自动执行
 
 
